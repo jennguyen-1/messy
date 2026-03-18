@@ -161,8 +161,29 @@ button {
 
 .a11 {
     position: absolute;
+    top: 65px;
+    left: 350px;
+
+}
+
+.a12 {
+    position: absolute;
     top: 145px;
-    left: 150px;
+    left: 490px;
+
+}
+
+.a13 {
+    position: absolute;
+    top: 20px;
+    left: 374px;
+
+}
+
+.a14 {
+    position: absolute;
+    top: 188px;
+    left: 450px;
 
 }
 
@@ -379,8 +400,8 @@ button {
 
 .e10 {
     position: absolute;
-    top: 700px;
-    left: 277px;
+    top: 350px;
+    left: 477px;
 }
 
 .e11 {
@@ -403,8 +424,8 @@ button {
 
 .e14 {
     position: absolute;
-    top: 832px;
-    left: 10px;
+    top: 610px;
+    left: 600px;
 }
 
 .e15 {
@@ -417,6 +438,12 @@ button {
     position: absolute;
     top: 756px;
     left: 520px;
+}
+
+.e17 {
+    position: absolute;
+    top: 400px;
+    left: 135px;
 }
 
 .f {
@@ -440,6 +467,35 @@ button {
 .g1 {
     position: absolute;
     top: 173px;
+    left: 720px;
+}
+
+.h {
+    position: absolute;
+    top: 173px;
     left: 880px;
 }
 
+.h1 {
+    position: absolute;
+    top: 303px;
+    left: 880px;
+}
+
+.i {
+    position: absolute;
+    top: 500px;
+    left: 970px;
+}
+
+.i1 {
+    position: absolute;
+    top: 480px;
+    left: 860px;
+}
+
+.i2 {
+    position: absolute;
+    top: 600px;
+    left: 900px;
+}
