@@ -1,0 +1,445 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+button {
+    all:unset;
+}
+
+/* folder */
+.folderpaircontainer {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+
+    /* background-color: aqua; */
+    width: 100px;
+}
+.foldericondiv {
+    width: 90px;
+    height: 90px;
+    /* background-color: pink; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border-style: solid;
+    border-color:rgb(215, 215, 215);
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px -6px rgba(0,0,0,0.54);
+    border-width: .5px; */
+}
+
+.folderpaircontainer:hover > .foldericondiv {
+    background-color: 
+    rgb(200, 200, 200);
+
+       border-style: solid;
+    border-color:rgb(215, 215, 215);
+    border-radius: 10px;
+}
+
+.foldericon {
+    width: 80px;
+}
+
+/* end folder */
+
+.name {
+    font-family: inter;
+    font-size: 12px;
+    margin-top: -10px;
+    text-align: center;
+}
+
+
+.folderpaircontainer:hover p {
+    background-color: rgb(36, 106, 255);
+    color: white;
+    border-style: solid;
+    border-width: .1px;
+    border-color:rgb(151, 151, 151);
+    border-radius: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.paircontainer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+
+    /* background-color: aqua; */
+    width: 100px;
+
+    text-align: center;
+}
+
+
+.icon {
+    width: 80px;
+
+    border-style: solid;
+    border-color:rgb(215, 215, 215);
+    border-radius: 15px;
+    box-shadow: 0px 0px 14px -6px rgba(0,0,0,0.54);
+    border-width: .5px;
+}
+
+.toggleitem {
+    display: none;
+}
+
+.a {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.a1 {
+    position: absolute;
+    top: 10px;
+    left: 120px;
+
+}
+
+.a2 {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+
+}.a3 {
+    position: absolute;
+    top: 170px;
+    left: 50px;
+
+}.a4 {
+    position: absolute;
+    top: 190px;
+    left: 130px;
+
+}.a5 {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+
+}.a6 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}.a7 {
+    position: absolute;
+    top: 200px;
+    left: 250px;
+
+}.a8 {
+    position: absolute;
+    top: 255px;
+    left: 10px;
+
+}.a9 {
+    position: absolute;
+    top: 40px;
+    left: 230px;
+
+}.a10 {
+    position: absolute;
+    top: 315px;
+    left: 123px;;
+
+}
+
+.a11 {
+    position: absolute;
+    top: 145px;
+    left: 150px;
+
+}
+
+.b {
+    position: absolute;
+    top: 145px;
+    left: 267px; 
+}
+
+.b1 {
+    position: absolute;
+    top: 160px;
+    left: 322px; 
+}
+
+.c {
+   position: absolute;
+   top: 300px;
+   left: 200px;
+}
+
+.c1 {
+   position: absolute;
+   top: 430px;
+   left: 230px;
+}
+
+.ca {
+    display: none;
+   position: absolute;
+   top: 320px;
+   left: 280px;
+}
+
+.ca1 {
+   position: absolute;
+   top: 400px;
+   left: 260px;
+}
+
+.ca2 {
+   position: absolute;
+   top: 200px;
+   left: 297px;
+}
+
+.ca3 {
+   position: absolute;
+   top: 480px;
+   left: 312px;
+}
+
+.ca4 {
+   position: absolute;
+   top: 250px;
+   left: 190px;
+}
+
+.ca5 {
+   position: absolute;
+   top: 373px;
+   left: 350px;
+}
+
+.ca6 {
+   position: absolute;
+   top: 270px;
+   left: 389px;
+}
+
+.d {
+   position: absolute;
+   top: 500px;
+   left: 509px;
+}
+
+.d1 {
+   position: absolute;
+   top: 600px;
+   left: 709px;
+}
+
+.d2 {
+   position: absolute;
+   top: 470px;
+   left: 609px;
+}
+
+.d3 {
+   position: absolute;
+   top: 400px;
+   left: 709px;
+}
+
+.d4 {
+   position: absolute;
+   top: 620px;
+   left: 409px;
+}
+
+.d5 {
+   position: absolute;
+   top: 500px;
+   left: 430px;
+}
+
+.d6 {
+   position: absolute;
+   top: 700px;
+   left: 529px;
+}
+
+.d7 {
+   position: absolute;
+   top: 650px;
+   left: 559px;
+}
+
+.d8 {
+   position: absolute;
+   top: 600px;
+   left: 500px;
+}
+
+.d9 {
+   position: absolute;
+   top: 390px;
+   left: 657px;
+}
+
+.d10 {
+   position: absolute;
+   top: 552px;
+   left: 590px;
+}
+
+.d11 {
+   position: absolute;
+   top: 480px;
+   left: 680px;
+}
+
+.d12 {
+   position: absolute;
+   top: 450px;
+   left: 450px;
+}
+
+.d13 {
+   position: absolute;
+   top: 532px;
+   left: 300px;
+}
+
+.e {
+    position: absolute;
+    top: 592px;
+    left: 94px;
+}
+
+.e1 {
+    position: absolute;
+    top: 702px;
+    left: 44px;
+}
+
+.e2 {
+    position: absolute;
+    top: 632px;
+    left: 194px;
+}
+
+.e3 {
+    position: absolute;
+    top: 582px;
+    left: 142px;
+}
+
+.e4 {
+    position: absolute;
+    top: 832px;
+    left: 144px;
+}
+
+.e5 {
+    position: absolute;
+    top: 829px;
+    left: 245px;
+}
+
+.e6 {
+    position: absolute;
+    top: 732px;
+    left: 214px;
+}
+
+.e7 {
+    position: absolute;
+    top: 492px;
+    left: 237px;
+}
+
+.e8 {
+    position: absolute;
+    top: 432px;
+    left: 20px;
+}
+
+.e9 {
+    position: absolute;
+    top: 481px;
+    left: 34px;
+}
+
+.e10 {
+    position: absolute;
+    top: 700px;
+    left: 277px;
+}
+
+.e11 {
+    position: absolute;
+    top: 750px;
+    left: 381px;
+}
+
+.e12 {
+    position: absolute;
+    top: 532px;
+    left: 194px;
+}
+
+.e13 {
+    position: absolute;
+    top: 532px;
+    left: 62px;
+}
+
+.e14 {
+    position: absolute;
+    top: 832px;
+    left: 10px;
+}
+
+.e15 {
+    position: absolute;
+    top: 712px;
+    left: 461px;
+}
+
+.e16 {
+    position: absolute;
+    top: 756px;
+    left: 520px;
+}
+
+.f {
+    position: absolute;
+    top: 100px;
+    left: 700px;
+}
+
+.f1 {
+    position: absolute;
+    top: 120px;
+    left: 807px;
+}
+
+.g {
+    position: absolute;
+    top: 223px;
+    left: 800px;
+}
+
+.g1 {
+    position: absolute;
+    top: 173px;
+    left: 880px;
+}
+

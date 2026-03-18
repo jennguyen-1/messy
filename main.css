@@ -1,0 +1,120 @@
+* {
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width:100%;
+}
+
+a {
+    text-decoration: none;
+    all: unset;
+}
+
+.container {
+    /* background-color: pink; */
+
+}
+
+.about {
+    margin-top: 30px;
+    margin-left: 50px;
+    text-decoration: underline;
+    width: 50px;
+}
+
+.folderpaircontainerwrap {
+   
+    /* display: flex;
+    justify-content: center; */
+    position: absolute;
+    left: 700px;
+    top: 450px;
+}
+
+.folderpaircontainer {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+
+    /* background-color: aqua; */
+    width: 100px;
+}
+.foldericondiv {
+    width: 90px;
+    height: 90px;
+    /* background-color: pink; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border-style: solid;
+    border-color:rgb(215, 215, 215);
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px -6px rgba(0,0,0,0.54);
+    border-width: .5px; */
+}
+
+.foldericondiv:hover {
+    background-color: 
+    rgb(200, 200, 200);
+
+       border-style: solid;
+    border-color:rgb(215, 215, 215);
+    border-radius: 10px;
+}
+
+.foldericon {
+    width: 80px;
+}
+
+.name {
+    font-family: inter;
+    font-size: 12px;
+
+}
+
+.words {
+    display:none;
+    position: absolute;
+    top: 70px;
+    margin-left: 50px;
+    width: 351px;
+    align-self: flex-start;
+}
+
+
+.about:hover {
+   text-shadow: rgba(0,0,0,1) 0px 0px 1px;
+}
+
+.pic1 {
+    display: none;
+    width: 400px;
+    position: absolute;
+    left: 500px; 
+    top: 30px;
+}
+
+
+.pic2 {
+    display:none;
+    width: 300px;
+    position: absolute;
+    left: 950px;
+    bottom: 30px;
+    box-shadow: 0px 0px 10px -5px #000000;
+}
+
+/* .about:hover + .words {
+    display: block;
+} */
+
+.about:hover ~ .show {
+    display: block;
+}
